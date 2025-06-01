@@ -77,17 +77,20 @@ export default class Pescotapa extends Client {
    * Loads event modules and attaches them to the client.
    */
   private async loadEvents(): Promise<void> {
+    console.log("🧪 Carregando eventos...");
     const eventFolderPath = fileURLToPath(
       new URL("../events", import.meta.url),
     );
     const eventFolder = fs.readdirSync(eventFolderPath);
 
     for (const folder of eventFolder) {
+      console.log("📁 Lendo pasta de eventos:", folder);
       const eventPath = path.join(eventFolderPath, folder);
       const eventFiles = fs
         .readdirSync(eventPath)
         .filter((file) => file.endsWith(".ts"));
       for (const file of eventFiles) {
+        console.log("📄 Carregando arquivo de evento:", filePath);
         const filePath = path.join(eventPath, file);
 
         const event = (await dynamicImport(filePath)) as DiscordEvent<
