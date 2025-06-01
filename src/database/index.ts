@@ -17,6 +17,8 @@ export async function createMongoConnection(): Promise<void> {
     process.env.DISCORD_MONGODB_URL as string,
     options as ConnectOptions,
   );
+
+  console.log("✅ Conectado com sucesso ao MongoDB");
 }
 
 await createMongoConnection();
