@@ -21,6 +21,7 @@ export const logger = new Logger(isAppInDevelopment);
 export const client = new DiscordClient();
 
 console.log("🔑 Token do bot:", process.env.DISCORD_CLIENT_TOKEN);
+console.log("📦 MongoDB URL:", process.env.DISCORD_MONGODB_URL);
 
 void client.start();
 
