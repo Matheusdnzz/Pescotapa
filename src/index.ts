@@ -20,6 +20,8 @@ export const logger = new Logger(isAppInDevelopment);
 
 export const client = new DiscordClient();
 
+console.log("🔑 Token do bot:", process.env.DISCORD_CLIENT_TOKEN);
+
 void client.start();
 
 void loadCronJobs();
