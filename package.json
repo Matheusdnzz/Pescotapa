@@ -11,7 +11,7 @@
     "lint": "eslint ."
   },
   "engines": {
-    "node": ">=20.11.0""start": "node --max-old-space-size=4096 --loader ts-node/esm src/index.ts"
+    "node": ">=20.11.0"
   },
   "keywords": [],
   "author": "",
