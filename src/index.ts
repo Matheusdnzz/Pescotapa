@@ -1,4 +1,4 @@
-import DiscordClient from "./structures/client.js";
+import Pescotapa from "./structures/client.js";
 import { Logger } from "./misc/logger/index.ts";
 import "dotenv/config";
 import { loadCronJobs, startNotificationsWorker } from "./jobs/index.ts";
@@ -18,13 +18,10 @@ export const logger = new Logger(isAppInDevelopment);
   });
 });
 
-export const client = new DiscordClient();
-
 console.log("🔑 Token do bot:", process.env.DISCORD_CLIENT_TOKEN);
-console.log("📦 MongoDB URL:", process.env.DISCORD_MONGODB_URL);
-console.log("🔑 Token usado:", process.env.DISCORD_CLIENT_TOKEN);
 
-export const client = new Pescotapa(); // <-- classe renomeada
+// ❗️Garanta que só existe esta linha de 'client':
+export const client = new Pescotapa();
 
 void client.start();
 
