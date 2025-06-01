@@ -6,7 +6,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --max-old-space-size=6144 --loader ts-node/esm src/index.ts",
+    "start": "node --max-old-space-size=4096 --loader ts-node/esm src/index.ts",
     "prettier": "prettier --write .",
     "lint": "eslint ."
   },
