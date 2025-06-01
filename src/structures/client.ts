@@ -31,6 +31,7 @@ import kakeleEmojis from "../kakele-data/emojis.ts";
 import kakeleItems from "../kakele-data/items.ts";
 import kakeleMonsters from "../kakele-data/monsters.js";
 import "../misc/canvas/index.ts";
+import { Dirent } from "node:fs";
 
 export default class Pescotapa extends Client {
   public commands: Collection<string, InteractionCommand>;
@@ -81,7 +82,7 @@ export default class Pescotapa extends Client {
     const eventFolderPath = fileURLToPath(
       new URL("../events", import.meta.url),
     );
-    const eventFolder = fs.readdirSync(eventFolderPath);
+    const eventFolder = fs.readdirSync(eventFolderPath, { withFileTypes: true }).filter((Dirent) => Dirent.isDirectory()).map((Dirent) => Dirent.name);
 
     for (const folder of eventFolder) {
       console.log("📁 Lendo pasta de eventos:", folder);
@@ -92,6 +93,7 @@ export default class Pescotapa extends Client {
       for (const file of eventFiles) {
         console.log("📄 Carregando arquivo de evento:", filePath);
         const filePath = path.join(eventPath, file);
+          console.log("🧩 Carregando evento:", filePath);
 
         const event = (await dynamicImport(filePath)) as DiscordEvent<
           keyof ClientEvents
