@@ -1,11 +1,11 @@
 import { client, logger } from "../../index.ts";
 import User from "../../database/schemas/user.ts";
 import { CustomEmbed, sleep } from "../../misc/util/index.ts";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 import { SupportedLanguages } from "../../structures/misc.ts";
 import cron from "node-cron";
 
-export async function notifyExpiredVIP(client: Biridim): Promise<void> {
+export async function notifyExpiredVIP(client: Pescotapa): Promise<void> {
   const now = new Date();
 
   const users = await User.find({ "vip_data.expiration_date": { $lte: now } });

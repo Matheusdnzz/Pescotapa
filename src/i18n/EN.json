@@ -187,7 +187,7 @@
   "COMMAND_BOOST_ALERT_INDEX_ROW_TITLE": "Index Selection",
   "COMMAND_BOOST_ALERT_INDEX_ROW_DESCRIPTION": "Choose the index and remove using the button.\n{{{string}}}",
   "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_TITLE": "Join the VIP Team",
-  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP until:__ {{{date}}}\n> Send **50** {{{emoji}}} Kakele Coins to receive **30 days** of VIP\n> You can send any amount, the value in days will be calculated.\n> The coins must be sent to the characters `BiridimBlue` `BiridimRed`...\n\nSend a proof of sending using the image option of this same command.\n> Some functions will only support **one guild** per user.\n\nVerification is manual so it may take a few hours. A notification will be sent to your DM if it is possible or you will not be notified.",
+  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP until:__ {{{date}}}\n> Send **50** {{{emoji}}} Kakele Coins to receive **30 days** of VIP\n> You can send any amount, the value in days will be calculated.\n> The coins must be sent to the characters `PescotapaBlue` `PescotapaRed`...\n\nSend a proof of sending using the image option of this same command.\n> Some functions will only support **one guild** per user.\n\nVerification is manual so it may take a few hours. A notification will be sent to your DM if it is possible or you will not be notified.",
   "COMMAND_JOIN_VIP_CONFIRM_PAYMENT_TITLE": "Confirm the VIP Payment",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_TITLE": "Your payment has been sent for review.",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_DESCRIPTION": "Please make sure to enable private messages so that you can be notified.\nThree days of VIP have been granted to you while the analysis of your payment is not confirmed.",
@@ -244,7 +244,7 @@
   "COMMAND_EVENT_ALERT_SETTINGS_CLEAR_INDEX_MODAL_SUCESS": "COMMAND_EVENT_ALERT_SETTINGS_CLEAR_INDEX_MODAL_SUCESS",
   "COMMAND_EVENT_ALERT_SETTINGS_CLEAR_INDEX_MODAL_TIMEOUT": "COMMAND_EVENT_ALERT_SETTINGS_CLEAR_INDEX_MODAL_TIMEOUT",
   "COMMAND_EVENT_ALERT_SETTINGS_CLEAR_INDEX_MODAL_REJECT": "COMMAND_EVENT_ALERT_SETTINGS_CLEAR_INDEX_MODAL_REJECT",
-  "OFFICIAL_WEBSITE_AD": "biridim.com.br",
+  "OFFICIAL_WEBSITE_AD": "Pescotapa.com.br",
   "RANKING_NO_DATA_FILTERED": "No guild data available",
   "RANKING_NO_DATA_FILTERED_DESCRIPTION": "`Tip:` Use abbreviations to filter results"
 }

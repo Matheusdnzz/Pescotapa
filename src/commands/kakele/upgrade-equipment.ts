@@ -15,12 +15,12 @@ import {
   getEquipmentUpgradeResources,
 } from "../../misc/util/index.ts";
 import { client } from "../../index.ts";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 import { type Canvas, createCanvas } from "canvas";
 import { cachedImages } from "../../misc/canvas/index.ts";
 
 async function createUpgradeEquipmentImage(
-  client: Biridim,
+  client: Pescotapa,
   data: EquipmentResourceData,
   language: SupportedLanguages,
 ): Promise<Canvas> {

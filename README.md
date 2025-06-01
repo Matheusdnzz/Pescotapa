@@ -1,4 +1,4 @@
-## Biridim: Your Helpful Bot in Kakele Online MMORPG
+## Pescotapa: Your Helpful Bot in Kakele Online MMORPG
 **Introduction**
 
 Pescotapa is a feature-rich bot designed to enhance your Kakele Online experience with a variety of utilities and functionalities.

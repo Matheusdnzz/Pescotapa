@@ -285,7 +285,7 @@ export class CustomEmbed {
   constructor() {
     this.data = new EmbedBuilder()
       .setAuthor({
-        name: "Biridim",
+        name: "Pescotapa",
         iconURL: KAKELE_ITEM_ICONS_URL.ElderVampireBrooch,
       })
       .setColor(0xe2725b);

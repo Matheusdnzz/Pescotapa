@@ -187,7 +187,7 @@
   "COMMAND_BOOST_ALERT_INDEX_ROW_TITLE": "Wybór Indeksu",
   "COMMAND_BOOST_ALERT_INDEX_ROW_DESCRIPTION": "Wybierz indeks i usuń przy użyciu przycisku.\n{{{string}}}",
   "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_TITLE": "Dołącz do Zespołu VIP",
-  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP do:__ {{{date}}}\n> Wyślij **50** {{{emoji}}} Kakele Coins, aby otrzymać **30 dni** VIP\n> Możesz wysłać dowolną ilość, liczba dni zostanie obliczona.\n> Monety należy wysłać na postacie `BiridimBlue` `BiridimRed`...\n\nWyślij dowód wysłania, korzystając z opcji obrazu tego samego polecenia.\n> Niektóre funkcje obsługują tylko **jeden serwer** na użytkownika.\n\nWeryfikacja jest ręczna, więc może to potrwać kilka godzin. Powiadomienie zostanie wysłane na DM, jeśli to możliwe, lub nie zostaniesz powiadomiony.",
+  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP do:__ {{{date}}}\n> Wyślij **50** {{{emoji}}} Kakele Coins, aby otrzymać **30 dni** VIP\n> Możesz wysłać dowolną ilość, liczba dni zostanie obliczona.\n> Monety należy wysłać na postacie `PescotapaBlue` `PescotapaRed`...\n\nWyślij dowód wysłania, korzystając z opcji obrazu tego samego polecenia.\n> Niektóre funkcje obsługują tylko **jeden serwer** na użytkownika.\n\nWeryfikacja jest ręczna, więc może to potrwać kilka godzin. Powiadomienie zostanie wysłane na DM, jeśli to możliwe, lub nie zostaniesz powiadomiony.",
   "COMMAND_JOIN_VIP_CONFIRM_PAYMENT_TITLE": "Potwierdź Płatność VIP",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_TITLE": "Twoja płatność została wysłana do przeglądu.",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_DESCRIPTION": "Upewnij się, że włączyłeś wiadomości prywatne, aby można było cię poinformować.\nTrzy dni VIP zostaną przyznane, dopóki analiza twojej płatności nie zostanie potwierdzona.",
@@ -238,7 +238,7 @@
   "EVENT_COUNTDOWN_NO_EVENTS_TITLE": "Nie ma zaplanowanych wydarzeń",
   "JOB_NOTIFY_EXPIRED_MESSAGE_TITLE": "Twoja subskrypcja VIP wygasła.",
   "JOB_NOTIFY_EXPIRED_MESSAGE_DESCRIPTION": "Aby odnowić, użyj komendy /join-vip.\n> 📅 {{{date}}}",
-  "OFFICIAL_WEBSITE_AD": "biridim.com.br",
+  "OFFICIAL_WEBSITE_AD": "Pescotapa.com.br",
   "RANKING_NO_DATA_FILTERED": "Brak danych gildii",
   "RANKING_NO_DATA_FILTERED_DESCRIPTION": "`Wskazówka:` Użyj skrótów, aby filtrować wyniki"
 }

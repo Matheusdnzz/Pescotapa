@@ -5,7 +5,7 @@ import {
   StringSelectMenuBuilder,
   StringSelectMenuOptionBuilder,
 } from "discord.js";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 import { type IOfferItemDocument } from "../../database/schemas/marketplace-item.ts";
 import {
   type KakeleMonster,
@@ -86,7 +86,7 @@ export function ITEM_RESULT_SELECTION_MENU(
 }
 
 export function MARKETPLACE_ADD_RESULT_SELECTION_MENU(
-  client: Biridim,
+  client: Pescotapa,
   items: any[],
   language: string,
 ): StringSelectMenuBuilder {

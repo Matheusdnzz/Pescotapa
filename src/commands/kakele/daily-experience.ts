@@ -16,7 +16,7 @@ import {
   getLevel,
 } from "../../misc/util/index.ts";
 import { client, logger } from "../../index.ts";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 import { fillMixedText } from "../../misc/canvas/index.ts";
 import { type Canvas, createCanvas, loadImage } from "canvas";
 
@@ -25,7 +25,7 @@ import fs from "fs";
 const compare = (a, b) => Number(b.progress) - Number(a.progress);
 
 export async function createDailyRankingImage(
-  client: Biridim,
+  client: Pescotapa,
   data: CharacterData[],
   server: string,
   language: SupportedLanguages,

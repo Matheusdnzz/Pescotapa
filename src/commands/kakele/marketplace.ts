@@ -91,25 +91,25 @@ export default new InteractionCommand({
     .addSubcommand((options) =>
       options
         .setName("manage")
-        .setDescription("Manage your items on the biridim marketplace")
+        .setDescription("Manage your items on the Pescotapa marketplace")
         .setDescriptionLocalizations({
-          "es-ES": "Administra tus objetos en el mercado de biridim",
-          "pt-BR": "Gerencie seus itens no marketplace do biridim",
-          pl: "Zarządzaj swoimi przedmiotami na rynku biridim",
+          "es-ES": "Administra tus objetos en el mercado de Pescotapa",
+          "pt-BR": "Gerencie seus itens no marketplace do Pescotapa",
+          pl: "Zarządzaj swoimi przedmiotami na rynku Pescotapa",
         }),
     )
     .addSubcommand((options) =>
       options
         .setName("view")
         .setDescription(
-          "Show the biridim marketplace with filtering and pagination functions.",
+          "Show the Pescotapa marketplace with filtering and pagination functions.",
         )
         .setDescriptionLocalizations({
           "es-ES":
-            "Mostrar el mercado de biridim con funciones de filtrado y paginación.",
+            "Mostrar el mercado de Pescotapa con funciones de filtrado y paginación.",
           "pt-BR":
-            "Mostra o marketplace do biridim com funções de filtragem e paginação.",
-          pl: "Pokaż rynek biridim z funkcjami filtrowania i paginacji.",
+            "Mostra o marketplace do Pescotapa com funções de filtragem e paginação.",
+          pl: "Pokaż rynek Pescotapa z funkcjami filtrowania i paginacji.",
         }),
     ),
   options: {

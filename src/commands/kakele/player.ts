@@ -25,13 +25,13 @@ import { PLAYER_RESULT_SELECTION_MENU } from "../../components/discordMenu/index
 import { cachedImages } from "../../misc/canvas/index.ts";
 import { type Canvas, createCanvas, loadImage } from "canvas";
 import fs from "fs";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 
 const playerSearchThreshold = 0.2;
 const playerSearchResultLimit = 6;
 
 async function createPlayerInfoImage(
-  client: Biridim,
+  client: Pescotapa,
   player: CharacterData,
   language: SupportedLanguages,
 ): Promise<Canvas> {

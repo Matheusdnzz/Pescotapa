@@ -187,7 +187,7 @@
   "COMMAND_BOOST_ALERT_INDEX_ROW_TITLE": "Seleção de Índice",
   "COMMAND_BOOST_ALERT_INDEX_ROW_DESCRIPTION": "Escolha o índice e remova usando o botão.\n{{{string}}}",
   "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_TITLE": "Junte-se à Equipe VIP",
-  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP até:__ {{{date}}}\n> Envie **50** {{{emoji}}} Moedas Kakele para receber **30 dias** de VIP\n> Você pode enviar qualquer quantia, o valor em dias será calculado.\n> As moedas devem ser enviadas para os personagens `BiridimAzul` `BiridimVermelho`...\n\nEnvie uma prova de envio usando a opção de imagem deste mesmo comando.\n> Algumas funções só darão suporte a **uma guilda** por usuário.\n\nA verificação é manual, portanto, pode levar algumas horas. Uma notificação será enviada para o seu DM se for possível ou você não será notificado.",
+  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP até:__ {{{date}}}\n> Envie **50** {{{emoji}}} Moedas Kakele para receber **30 dias** de VIP\n> Você pode enviar qualquer quantia, o valor em dias será calculado.\n> As moedas devem ser enviadas para os personagens `PescotapaAzul` `PescotapaVermelho`...\n\nEnvie uma prova de envio usando a opção de imagem deste mesmo comando.\n> Algumas funções só darão suporte a **uma guilda** por usuário.\n\nA verificação é manual, portanto, pode levar algumas horas. Uma notificação será enviada para o seu DM se for possível ou você não será notificado.",
   "COMMAND_JOIN_VIP_CONFIRM_PAYMENT_TITLE": "Confirme o Pagamento VIP",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_TITLE": "Seu pagamento foi enviado para análise.",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_DESCRIPTION": "Certifique-se de habilitar as mensagens privadas para que você possa ser notificado.\nTrês dias de VIP foram concedidos a você enquanto a análise de seu pagamento não for confirmada.",
@@ -240,7 +240,7 @@
   "JOB_NOTIFY_EXPIRED_MESSAGE_DESCRIPTION": "Para renovar, use o comando /join-vip.\n> 📅 {{{date}}}",
   "COMMAND_LANGUAGE_MISSING_PERMISSION_TITLE": "COMMAND_LANGUAGE_MISSING_PERMISSION_TITLE",
   "UPGRADE_EQUIPMENT_EQUAL_VALUES_DESCRIPTION": "UPGRADE_EQUIPMENT_EQUAL_VALUES_DESCRIPTION",
-  "OFFICIAL_WEBSITE_AD": "biridim.com.br",
+  "OFFICIAL_WEBSITE_AD": "Pescotapa.com.br",
   "RANKING_NO_DATA_FILTERED": "Dados da guilda não disponíveis",
   "RANKING_NO_DATA_FILTERED_DESCRIPTION": "`Dica:` Use abreviações para filtrar resultados"
 }

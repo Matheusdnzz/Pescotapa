@@ -1,10 +1,10 @@
 import { type ClientEvents } from "discord.js";
-import type Biridim from "./client";
+import type Pescotapa from "./client";
 
 interface EventOptions<Key extends keyof ClientEvents> {
   name: Key;
   once: boolean;
-  run: (client: Biridim, ...args: ClientEvents[Key]) => Promise<any> | any;
+  run: (client: Pescotapa, ...args: ClientEvents[Key]) => Promise<any> | any;
 }
 
 export default class DiscordEvent<Key extends keyof ClientEvents>

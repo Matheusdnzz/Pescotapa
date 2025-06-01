@@ -5,7 +5,7 @@ import {
   type ButtonBuilder,
   ButtonStyle,
 } from "discord.js";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 import { SupportedLanguages } from "../../structures/misc.ts";
 import {
   JOIN_VIP_CONFIRM_MODAL,
@@ -21,7 +21,7 @@ import User from "../../database/schemas/user.ts";
 import { getUser } from "../database/index.ts";
 
 async function showConfirmModal(
-  client: Biridim,
+  client: Pescotapa,
   interaction: ButtonInteraction,
   language: SupportedLanguages,
 ): Promise<void> {
@@ -29,7 +29,7 @@ async function showConfirmModal(
 }
 
 async function showRejectModal(
-  client: Biridim,
+  client: Pescotapa,
   interaction: ButtonInteraction,
   language: SupportedLanguages,
 ): Promise<void> {
@@ -37,7 +37,7 @@ async function showRejectModal(
 }
 
 async function handleConfirmModal(
-  client: Biridim,
+  client: Pescotapa,
   interaction: ModalSubmitInteraction,
 ): Promise<void> {
   if (!interaction.deferred) {
@@ -118,7 +118,7 @@ async function handleConfirmModal(
 }
 
 async function handleRejectModal(
-  client: Biridim,
+  client: Pescotapa,
   interaction: ModalSubmitInteraction,
 ): Promise<void> {
   if (!interaction.deferred) {

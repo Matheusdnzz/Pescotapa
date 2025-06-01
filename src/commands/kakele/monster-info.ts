@@ -19,7 +19,7 @@ import { MONSTER_RESULT_SELECTION_MENU } from "../../components/discordMenu/inde
 import { cachedImages } from "../../misc/canvas/index.ts";
 import { createCanvas, type Canvas, loadImage } from "canvas";
 import fs from "fs";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 
 const monsterSearchThreshold = 0.4;
 const monsterSearchResultLimit = 12;
@@ -32,7 +32,7 @@ const BACKGROUND_IMAGE_PATHS = {
 };
 
 async function createMonsterInfoImage(
-  client: Biridim,
+  client: Pescotapa,
   monster: KakeleMonster,
   languageCode: SupportedLanguages,
 ): Promise<Canvas> {

@@ -187,7 +187,7 @@
   "COMMAND_BOOST_ALERT_INDEX_ROW_TITLE": "Selección de Índice",
   "COMMAND_BOOST_ALERT_INDEX_ROW_DESCRIPTION": "Elige el índice y elimina usando el botón.\n{{{string}}}",
   "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_TITLE": "Únete al Equipo VIP",
-  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP hasta:__ {{{date}}}\n> Envía **50** {{{emoji}}} Kakele Coins para recibir **30 días** de VIP\n> Puedes enviar cualquier cantidad, se calculará el valor en días.\n> Las monedas deben ser enviadas a los personajes `BiridimBlue` `BiridimRed`...\n\nEnvía una prueba de envío utilizando la opción de imagen de este mismo comando.\n> Algunas funciones solo admitirán **una hermandad** por usuario.\n\nLa verificación es manual, por lo que puede tomar algunas horas. Se te notificará a través de DM si es posible o no serás notificado.",
+  "COMMAND_JOIN_VIP_UNKNOWN_ATTACHMENT_DESCRIPTION": "📅 __VIP hasta:__ {{{date}}}\n> Envía **50** {{{emoji}}} Kakele Coins para recibir **30 días** de VIP\n> Puedes enviar cualquier cantidad, se calculará el valor en días.\n> Las monedas deben ser enviadas a los personajes `PescotapaBlue` `PescotapaRed`...\n\nEnvía una prueba de envío utilizando la opción de imagen de este mismo comando.\n> Algunas funciones solo admitirán **una hermandad** por usuario.\n\nLa verificación es manual, por lo que puede tomar algunas horas. Se te notificará a través de DM si es posible o no serás notificado.",
   "COMMAND_JOIN_VIP_CONFIRM_PAYMENT_TITLE": "Confirma el Pago VIP",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_TITLE": "Tu pago ha sido enviado para su revisión.",
   "COMMAND_JOIN_VIP_SUCCESSFULLY_REQUESTED_DESCRIPTION": "Asegúrate de habilitar los mensajes privados para que puedas ser notificado.\nSe te otorgarán tres días de VIP mientras se analiza tu pago y no se confirma.",
@@ -238,7 +238,7 @@
   "EVENT_COUNTDOWN_NO_EVENTS_TITLE": "No hay eventos programados",
   "JOB_NOTIFY_EXPIRED_MESSAGE_TITLE": "Tu suscripción VIP ha caducado.",
   "JOB_NOTIFY_EXPIRED_MESSAGE_DESCRIPTION": "Para renovar, utiliza el comando /join-vip.\n> 📅 {{{date}}}",
-  "OFFICIAL_WEBSITE_AD": "biridim.com.br",
+  "OFFICIAL_WEBSITE_AD": "Pescotapa.com.br",
   "RANKING_NO_DATA_FILTERED": "No hay datos de hermandad disponibles",
   "RANKING_NO_DATA_FILTERED_DESCRIPTION": "`Consejo:` Usa abreviaturas para filtrar resultados"
 }

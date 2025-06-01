@@ -11,11 +11,11 @@ import {
 import { CustomEmbed, getExperienceToLevel } from "../../misc/util/index.ts";
 import { client } from "../../index.ts";
 import { createCanvas, type Canvas } from "canvas";
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 import { cachedImages, fillMixedText } from "../../misc/canvas/index.ts";
 
 async function createExperienceImage(
-  client: Biridim,
+  client: Pescotapa,
   initialLevel: number,
   finalLevel: number,
   language: SupportedLanguages,
@@ -83,7 +83,7 @@ async function createExperienceImage(
 }
 
 async function createNegativeExperienceImage(
-  client: Biridim,
+  client: Pescotapa,
   initialLevel: number,
   finalLevel: number,
   language: SupportedLanguages,

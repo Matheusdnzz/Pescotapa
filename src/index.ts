@@ -22,6 +22,9 @@ export const client = new DiscordClient();
 
 console.log("🔑 Token do bot:", process.env.DISCORD_CLIENT_TOKEN);
 console.log("📦 MongoDB URL:", process.env.DISCORD_MONGODB_URL);
+console.log("🔑 Token usado:", process.env.DISCORD_CLIENT_TOKEN);
+
+export const client = new Pescotapa(); // <-- classe renomeada
 
 void client.start();
 

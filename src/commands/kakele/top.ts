@@ -21,10 +21,10 @@ import { client, logger } from "../../index.ts";
 
 import Canvas from "canvas";
 
-import type Biridim from "../../structures/client.ts";
+import type Pescotapa from "../../structures/client.ts";
 
 export async function createRankingImage(
-  client: Biridim,
+  client: Pescotapa,
   data: CharacterData[],
   yesterdayDdata: CharacterData[],
   category: string,

@@ -32,7 +32,7 @@ import kakeleItems from "../kakele-data/items.ts";
 import kakeleMonsters from "../kakele-data/monsters.js";
 import "../misc/canvas/index.ts";
 
-export default class Biridim extends Client {
+export default class Pescotapa extends Client {
   public commands: Collection<string, InteractionCommand>;
   public interactionRateLimit: Collection<string, UserRateLimit>;
   public kakeleEmojis: Array<{ id: string; name: string }>;
@@ -374,7 +374,7 @@ export default class Biridim extends Client {
   }
 
   /**
-   * Starts the Biridim bot by loading commands, events, and establishing a connection.
+   * Starts the Pescotapa bot by loading commands, events, and establishing a connection.
    */
 
   public translate(phrase: string, locale: string, options?: any): string {
@@ -392,9 +392,12 @@ export default class Biridim extends Client {
     await createMongoConnection();
 
     global.rankingBlacklist = [];
+    try {
+    await this.login(process.env.DISCORD_CLIENT_TOKEN);
+    console.log("🤖 Bot logado com sucesso no Discord!");
+  } catch (e) {
+    console.error("❌ Falha ao logar no Discord:", e);
 
-    this.login(process.env.DISCORD_CLIENT_TOKEN).catch((e) => {
-      logger.error(e);
-    });
+    };
   }
 }

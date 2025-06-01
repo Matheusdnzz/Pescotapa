@@ -4,14 +4,14 @@ import {
   TextInputBuilder,
   TextInputStyle,
 } from "discord.js";
-import type Biridim from "../../structures/client";
+import type Pescotapa from "../../structures/client";
 import {
   type SupportedLanguages,
   type InteractionArgs,
 } from "../../structures/misc";
 
 export function MARKETPLACE_ADD_ITEM_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   args: InteractionArgs,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -51,7 +51,7 @@ export function MARKETPLACE_ADD_ITEM_MODAL(
 }
 
 export function MARKETPLACE_ADD_STATS_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   args: InteractionArgs,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -78,7 +78,7 @@ export function MARKETPLACE_ADD_STATS_MODAL(
 }
 
 export function MARKETPLACE_ADD_PRICE_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   args: InteractionArgs,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -105,7 +105,7 @@ export function MARKETPLACE_ADD_PRICE_MODAL(
 }
 
 export function MARKETPLACE_VIEW_REPORT_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   language: SupportedLanguages,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -131,7 +131,7 @@ export function MARKETPLACE_VIEW_REPORT_MODAL(
 }
 
 export function MARKETPLACE_VIEW_MESSAGE_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   language: SupportedLanguages,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -159,7 +159,7 @@ export function MARKETPLACE_VIEW_MESSAGE_MODAL(
 }
 
 export function MARKETPLACE_VIEW_ANSWER_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   language: SupportedLanguages,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -185,7 +185,7 @@ export function MARKETPLACE_VIEW_ANSWER_MODAL(
 }
 
 export function NOTIFICATION_MODAL_EVENT_INDEX_SELECTION(
-  client: Biridim,
+  client: Pescotapa,
   language: SupportedLanguages,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -206,7 +206,7 @@ export function NOTIFICATION_MODAL_EVENT_INDEX_SELECTION(
   return modal;
 }
 export function JOIN_VIP_CONFIRM_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   language: SupportedLanguages,
 ): ModalBuilder {
   const modal = new ModalBuilder()
@@ -226,7 +226,7 @@ export function JOIN_VIP_CONFIRM_MODAL(
 }
 
 export function JOIN_VIP_REJECT_MODAL(
-  client: Biridim,
+  client: Pescotapa,
   language: SupportedLanguages,
 ): ModalBuilder {
   const modal = new ModalBuilder()
